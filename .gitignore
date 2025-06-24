@@ -1,0 +1,25 @@
+# Игнорировать переменные окружения
+.env
+
+# Игнорировать виртуальное окружение
+.venv/
+venv/
+
+# Кеш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite база данных
+*.sqlite3
+*.db
+
+# Логи
+*.log
+
+# macOS
+.DS_Store
+
+# Docker временные файлы (если ты тестируешь локально)
+docker-compose.override.yml
